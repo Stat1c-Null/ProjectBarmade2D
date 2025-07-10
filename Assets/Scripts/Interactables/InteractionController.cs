@@ -12,6 +12,7 @@ public class ItemInteraction : MonoBehaviour
     public UnityEvent OnBoxExit;
     public UnityEvent OnItemInteraction;
     public UnityEvent OnItemDisable;
+    public UnityEvent ItemInteractionChecks;
 
     public KeyCode KEYBIND = KeyCode.E;
     private bool isColliding = false;
@@ -20,7 +21,6 @@ public class ItemInteraction : MonoBehaviour
     // Check for player collision
     void OnCollisionEnter2D(Collision2D collision)
     {
-
         if (collision.gameObject.CompareTag("Player"))
         {
             isColliding = true;

@@ -41,7 +41,7 @@ public class BottleClass : MonoBehaviour, IPointerClickHandler // TODO: Rename
             previousDrinkType = drinkType;
         }
     }
-    // Start is called before the first frame update
+    
     void Start()
     {
         Debug.Log(sodaType);
@@ -49,21 +49,16 @@ public class BottleClass : MonoBehaviour, IPointerClickHandler // TODO: Rename
         camera = Camera.main;
     }
 
-    // Update is called once per frame
     void Update()
     {
-        if(holdingDrink) {
-
+        if(holdingDrink) 
+        {
             Vector3 cameraPos = camera.ScreenToWorldPoint(Input.mousePosition);
-            Debug.Log(cameraPos);
-            //gameObject.transform.position = cameraPos;
         }
     }
 
     public void OnPointerClick(PointerEventData eventData)
     {
-        Debug.Log("UI Image clicked: " + gameObject.name);
-
         holdingDrink = true;
     }
 }

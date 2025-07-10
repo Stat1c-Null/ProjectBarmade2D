@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 // TODO: Make clear the difference between ice tray and ice machine 
+// TODO: This PlayerIce script should not be a child of PlayerBartender
 public class PlayerIce : MonoBehaviour // TODO: What is the purpose of this script? Should it be renamed IceMachineController?
 {
     public bool withIce = false;
