@@ -1692,6 +1692,7 @@ RectTransform:
   - {fileID: 5374483365059110959}
   - {fileID: 2055330897794475878}
   - {fileID: 1556098459646296097}
+  - {fileID: 4670053196381884005}
   m_Father: {fileID: 4610439295365008537}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -1759,13 +1760,6 @@ MonoBehaviour:
   SodaBottles:
   - {fileID: 0}
   - {fileID: 0}
-  iceTray: {fileID: 0}
-  iceSprite: {fileID: 9090105694034551776}
-  iceTrayUI: {fileID: 2587280457647634386}
-  objPositionOffset: 30
-  limesVolume: 80
-  limeSprite: {fileID: 6629081850244412619}
-  limeTrayUI: {fileID: 8270507504833063571}
 --- !u!1 &7915890419955562189
 GameObject:
   m_ObjectHideFlags: 0
